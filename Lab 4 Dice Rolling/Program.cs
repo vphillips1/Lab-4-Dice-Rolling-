@@ -6,32 +6,63 @@ namespace Lab_4_Dice_Rolling
     {
         static void Main(string[] args)
         {
-           
 
-            Console.WriteLine("Welcome to Grand Circus Casino\nEnter the number of sides for a pair of dice:");
 
-            string numSides = Console.ReadLine();
-
-            int sides;
-            bool realInteger = int.TryParse(numSides, out sides);
-
-            bool keepPlaying = true;
-
-            int rollCount = 1;
             do
+
             {
-               
+                Console.WriteLine("Welcome to Grand Circus Casino! Roll the die? (y/n)");
+                string input = Console.ReadLine();
+                bool cont = true;
 
-                Console.WriteLine($"Roll {rollCount}: ");
+                input = input.ToLower();
+                if (input.Equals("y"))
+                {
+                    Console.WriteLine("How many sides should each die have ? ");
+                    string numSides = Console.ReadLine();
 
-                Console.WriteLine(RandomNUmber(2*sides));
+                    int sides;
+                    bool realInteger = int.TryParse(numSides, out sides);
 
-                
+                    bool keepPlaying = true;
 
-                rollCount++;
+                    int rollCount = 1;
+                    do
+                    {
 
-            } while (keepPlaying = ContinueGame());
 
+                        Console.WriteLine($"Roll {rollCount}: ");
+
+                        Console.WriteLine(RandomNUmber(2 * sides));
+
+                        Console.WriteLine(RandomNum(2 * sides));
+
+
+
+                        rollCount++;
+
+                    } while (keepPlaying = ContinueGame());
+
+                    cont = true;
+                    break;
+                }
+
+                else if (input.Equals("n"))
+                {
+                    Console.WriteLine("Have a great day!");
+                    cont = false;
+                    break;
+                }
+
+                else
+                {
+                    Console.WriteLine("Invalid Input try again.");
+                    continue;
+                }
+
+
+            } while (true);
+            
 
 
         }
@@ -47,6 +78,15 @@ namespace Lab_4_Dice_Rolling
             return randomNUmber;
         }
         
+
+        static int RandomNum (int y)
+
+        {
+            Random ran = new Random();
+            int randomNum = ran.Next(2, y);
+            return randomNum;
+
+        }
 
         static bool ContinueGame()
 
@@ -69,7 +109,7 @@ namespace Lab_4_Dice_Rolling
 
                 else if (userInput.Equals("n"))
                 {
-
+                    Console.WriteLine("Have a great day!");
                     continueGame = false;
                     break;
                 }
