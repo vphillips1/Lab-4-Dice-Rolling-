@@ -1,0 +1,13 @@
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.exe
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.deps.json
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.runtimeconfig.json
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.runtimeconfig.dev.json
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.dll
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.pdb
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.csprojAssemblyReference.cache
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.AssemblyInfoInputs.cache
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.AssemblyInfo.cs
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.csproj.CoreCompileInputs.cache
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.dll
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.pdb
+C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.genruntimeconfig.cache
